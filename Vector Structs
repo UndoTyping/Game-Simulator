@@ -1,7 +1,7 @@
 struct Vector2
     {
-        public double x { get; set; }
-        public double y { get; set; }
+        public double x;
+        public double y;
         public Vector2(double x, double y)
         {
             this.x = x;
@@ -38,9 +38,9 @@ struct Vector2
     }
     struct Vector3
     {
-        public double x { get; set; }
-        public double y { get; set; }
-        public double z { get; set; }
+        public double x;
+        public double y;
+        public double z;
         public Vector3(double x, double y, double z)
         {
             this.x = x;
